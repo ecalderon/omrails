@@ -6,6 +6,12 @@ $navbarBackground: white;
 $btnPrimaryBackground: green;
 
 @import 'bootstrap';
+
+/* link color
+a:visited {color: #6699FF;}
+a:hover { background-color: #fff;}
+*/
+
 body{
     padding-top: 60px;
 }
