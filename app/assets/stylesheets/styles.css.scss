@@ -7,10 +7,17 @@ $btnPrimaryBackground: green;
 
 @import 'bootstrap';
 
+a.btn:visited { color: #333; }
+
+a.btn-danger:visited { color: #fff; }
+
+a.btn-primary:visited { color: #fff; }
 /* link color
+a:link {color: white};
+*/
 a:visited {color: #6699FF;}
 a:hover { background-color: #fff;}
-*/
+
 
 body{
     padding-top: 60px;
