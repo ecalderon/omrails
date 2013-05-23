@@ -6,7 +6,7 @@
     </p>
     <p>
         <strong>
-            By <%= pin.user.name %>
+            By <%= link_to pin.user.name, pin.user %>
         </strong>
     </p>
     <% if current_user == pin.user %>
